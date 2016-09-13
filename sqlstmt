@@ -17,3 +17,6 @@ COMMIT;
 
 /* Display all the records from the table */
 SELECT * FROM NAMES;
+a) SELECT First_Name AND Last_Name FROM Users; 
+b) SELECT First_Name, Last_Name FROM Users WHERE Join_Date > 'Apr-01-2015' AND Birth_Date < 'Jan-01-1980'; 
+c) SELECT First_Name OR User_Name FROM Users; 
